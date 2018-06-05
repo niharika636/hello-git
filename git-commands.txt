@@ -1,0 +1,19 @@
+                                                GIT COMMANDS
+1. git init :Initializes a git repository – creates the initial .git directory in a new or in an existing project. 
+Syntax:git init
+2. git add
+Adds files changes in your working directory to your index. 
+Syntax:git add .
+3. git commit:Takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. 
+Syntax:git commit -m "first commit"
+4. git status :Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing). 
+Syntax:git status
+5. git remote :Shows all the remote versions of your repository. 
+Syntax:git remote origin "your remote repo address here" 
+6.git push:Pushes all the modified local objects to the remote repository and advances its branches.
+ Syntax:git push origin master
+7.git log :It is used to view the history of your repository.
+ Syntax:git log
+8. git config:git config that lets you get and set configuration variables that control all aspects of how Git looks and operates. 
+Syntax:git config --global user.name "username"
+           :git config --global user.email "useremail"
